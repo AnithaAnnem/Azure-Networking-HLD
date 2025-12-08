@@ -263,6 +263,7 @@ Azure Load Balancer operates at Layer 4 (TCP/UDP) and is used for distributing t
 Public Load Balancer → internet-facing workload
 
 Internal Load Balancer → private-only traffic distribution
+
 ---
 
 ## 5.5 Azure Firewall
