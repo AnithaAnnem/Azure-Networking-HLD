@@ -498,11 +498,14 @@ Examples:
 
 ---
 
-# 13. Summary
+# 13. Conclusion
 
-This HLD provides a complete, enterprise-ready design for Azure networking, governance, security, compliance, routing, operations, and high availability.  
-It aligns with Azure Landing Zone architecture, ensures scalability, enforces best practices, and supports secure hybrid cloud connectivity.
+This High-Level Design (HLD) establishes a scalable, secure, and enterprise-grade Azure networking foundation aligned with Microsoft’s Landing Zone architecture.
+It ensures proper governance, identity management, security controls, hybrid connectivity, operational readiness, and future scalability for workloads across multiple environments and regions.
 
+# 14. References  
+- [Azure Basics (Udemy Course)](https://www.udemy.com/course/azure-basics-part-1/)
+- [Microsoft Azure Documentation](https://learn.microsoft.com/en-us/azure/)
 ---
 
 
