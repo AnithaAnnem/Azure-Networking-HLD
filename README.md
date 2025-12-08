@@ -316,7 +316,6 @@ TLS termination
 
 Edge caching
 
-OWASP WAF
 ---
 
 ## 5.9 Azure Bastion
