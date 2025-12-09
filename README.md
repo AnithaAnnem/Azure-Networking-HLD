@@ -170,6 +170,8 @@ Microsoft Azure uses a **Hub-and-Spoke** topology aligned to the Landing Zone ar
 # 4. Azure Networking Components 
 
 ## 4.1 Azure Virtual Network (VNet)
+<img width="849" height="436" alt="image" src="https://github.com/user-attachments/assets/33f9d2cc-d1d2-4cbc-98d9-752b062b75ac" />
+
 Azure Virtual Network is the core building block of private networking in Azure. It enables resources such as VMs, firewalls, Application Gateways, and PaaS services (via Private Endpoints) to securely communicate with each other.
 VNets are logically isolated and support segmentation using subnets, custom IP ranges, and routing rules. They also support hybrid connectivity using VPN and ExpressRoute.
 
@@ -186,6 +188,8 @@ NSG and route table integration
 ---
 
 ## 4.2 Azure Application Gateway (Layer 7 + WAF)
+<img width="734" height="541" alt="image" src="https://github.com/user-attachments/assets/ef41ed5e-b9ad-4ff9-897b-0b7802261d44" />
+
 Azure Application Gateway provides Layer 7 load balancing, meaning traffic is routed based on URL paths, host headers, and cookies rather than IP and ports alone. It supports SSL termination, autoscaling, session affinity, and protection through its integrated Web Application Firewall (WAF).
 
 ### Use Cases:
@@ -201,6 +205,8 @@ Traffic routing based on HTTP(S) metadata
 ---
 
 ## 4.3 Azure VPN Gateway
+<img width="767" height="443" alt="image" src="https://github.com/user-attachments/assets/2801e4f5-90b9-4575-9f15-6446d08d3692" />
+
 VPN Gateway enables encrypted communication between on-premises networks and Azure VNets using IPsec tunnels. It also supports VNet-to-VNet and Point-to-Site VPNs for client remote access.
 
 ### Modes Supported:
@@ -214,6 +220,8 @@ VNet-to-VNet encryption
 ---
 
 ## 4.4 Azure Load Balancer (Layer 4)
+<img width="738" height="390" alt="image" src="https://github.com/user-attachments/assets/56cb262a-8393-4ff4-8520-4ac1fe395f29" />
+
 Azure Load Balancer operates at Layer 4 (TCP/UDP) and is used for distributing traffic across backend resources like Virtual Machines. It supports high performance and is often used for internal application tiers or high-throughput workloads.
 
 ### Types:
@@ -225,6 +233,9 @@ Internal Load Balancer → private-only traffic distribution
 ---
 
 ## 4.5 Azure Firewall
+<img width="1365" height="570" alt="image" src="https://github.com/user-attachments/assets/6abb4546-22bd-4ccc-9e93-938b37efa44d" />
+
+
 Azure Firewall is a cloud-native, fully managed stateful firewall with built-in threat intelligence, filtering, and outbound/inbound rules. It centrally enforces traffic policies for all VNets connected through a hub.
 
 ### Capabilities:
@@ -240,6 +251,8 @@ Secured traffic inspection
 ---
 
 ## 4.6 Azure DNS
+<img width="1256" height="289" alt="image" src="https://github.com/user-attachments/assets/695285a3-26ec-4f64-a8dd-5eb47d09c595" />
+
 Azure DNS provides name resolution for both public and private domains. Internal DNS resolution is required for Private Endpoints, hybrid networks, and service discovery across VNets.
 
 ### Features:
@@ -253,6 +266,8 @@ Integration with Virtual Networks
 ---
 
 ## 4.7 Azure Traffic Manager
+<img width="635" height="606" alt="image" src="https://github.com/user-attachments/assets/6eb86cbe-13f9-47cd-bb77-35d8917f89c3" />
+
 Traffic Manager uses DNS-based routing to direct users to applications deployed across multiple regions. It enables global traffic distribution based on performance, geographic rules, failover, and weighted routing.
 
 ### Use Cases:
@@ -266,6 +281,8 @@ Global application distribution
 ---
 
 ## 4.8 Azure Front Door
+<img width="797" height="297" alt="image" src="https://github.com/user-attachments/assets/28f8d41a-76d2-454b-b0ad-1f03f1efa0cf" />
+
 Azure Front Door is a global edge service that provides secure, fast, and intelligent routing for web applications. It combines CDN performance optimization with WAF security, SSL termination, caching, and Layer 7 routing.
 
 ### Capabilities:
@@ -279,6 +296,9 @@ Edge caching
 ---
 
 ## 4.9 Azure Bastion
+<img width="972" height="306" alt="image" src="https://github.com/user-attachments/assets/112e8066-c349-4588-bd38-3ecd8f4ade9a" />
+
+
 Azure Bastion allows administrators to securely connect to VMs using RDP/SSH without exposing public IPs. It provides browser-based secure management sessions through the Azure Portal.
 
 ### Benefits:
@@ -292,6 +312,8 @@ Logging and audit-friendly
 ---
 
 ## 4.10 Azure Private Link
+<img width="727" height="340" alt="image" src="https://github.com/user-attachments/assets/35ec8a00-c198-43c3-ae49-db3dd6a12d04" />
+
 Private Link provides private access to Azure PaaS services (Storage, SQL, Key Vault, etc.) using private IP addresses inside the VNet. It eliminates public exposure and enforces traffic isolation.
 
 ### Highlights:
