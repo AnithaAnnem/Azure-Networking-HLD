@@ -74,6 +74,9 @@ It includes identity management, resource organization, networking design, secur
 
 # 2. Azure Governance & Identity Layer
 
+<img width="841" height="578" alt="image" src="https://github.com/user-attachments/assets/5d8d765d-f112-4c3a-8a3c-fbf0e486ef6f" />
+
+
 ## 2.1 Azure Active Directory (Azure AD / Microsoft Entra ID)
 
 Azure AD (Microsoft Entra ID) is the identity and access management service for Azure resources, users, and applications.
@@ -196,6 +199,7 @@ Subnet segmentation
 Hybrid connectivity (VPN/ER)
 
 NSG and route table integration
+
 ---
 
 ## 4.2 Azure Application Gateway (Layer 7 + WAF)
